@@ -25,6 +25,8 @@ Start utan a migraciok lefutnak es lesz egy elo adatbazisunk.
 
 >dotnet run
 
+Termeszetesen Visual Studioban is tudod futtatni ha kivalasztod a BanksSytem.Web-et majd a zold play gombnal is a BankSystem.Web-et kell kivalasztani.
+
 ## Teszt Account
 Van egy Nagy Zoltan nevezetu urgenk, akinek a felhasznalo neve
 | Felhasznalo nev                 | Jelszo 

@@ -1,9 +1,7 @@
 ﻿namespace BankSystem.Web
 {
     using System;
-    using AutoMapper;
     using BankSystem.Models;
-    using Common.AutoMapping.Profiles;
     using Common.Configuration;
     using Common.EmailSender;
     using Common.Utils;
