@@ -14,10 +14,7 @@
         private const string SampleBankName = "OtpBank";
         private const string SampleUniqueIdentifier = "ABC";
         private const string SampleFirst3CardDigits = "123";
-        private const string SampleCentralApiAddress = "https://localhost:5001/";
-        private const string SampleCentralApiPublicKey = "sdgijsd09gusd0jsdpfasjiofasd";
         private const string SampleBankCountry = "Hungary";
-        private const string SampleBankKey = "sdf90234rewfsd0ij9oigsdf";
 
         protected BaseTest()
             => this.Mapper = TestSetup.InitializeMapper();

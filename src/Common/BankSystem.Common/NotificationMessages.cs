@@ -39,8 +39,6 @@ namespace BankSystem.Common
 
         public const string SessionExpired = "Session has expired. Please log in again.";
 
-        public const string PaymentStateInvalid =
-            "Payment details are invalid or have expired. Please try again later.";
 
         public const string SuccessfulRegistration =
                    "Thank you for your registration. To activate your account, please follow the link in the email we have sent you";

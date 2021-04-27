@@ -15,15 +15,11 @@ namespace BankSystem.Common.AutoMapping.Profiles
         private void ConfigureMapping()
         {
             //TODO: Refactor, this is really bad to have this as a constant,
-            // CentralApi should be extracted in separate sln file or at least it shouldn't share logic with BankSystem.Common
-            // If we don't specify exactly the assemblies we want our tests might fail because not all assemblies are loaded on start up
-            // since assemblies in .NET are lazy loaded
-            const string centralApiNamespace = "CentralApi";
+
             var allTypes = AppDomain
                 .CurrentDomain
                 .GetAssemblies()
-                .Where(a => a.GetName().FullName.Contains(nameof(BankSystem)) ||
-                            a.GetName().FullName.Contains(centralApiNamespace))
+                .Where(a => a.GetName().FullName.Contains(nameof(BankSystem)))
                 .SelectMany(a => a.GetTypes())
                 .ToArray();
 
