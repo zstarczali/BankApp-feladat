@@ -16,7 +16,7 @@ Ha **nem** telepited a SqlLocalDb akkor termeszetesen **nem** kell megkrealni a 
 
 >SqlLocalDb start "HvgDb"
 
-Start utan a migraciok lefutnak es lesz egy elo adatbazisunk.
+*dotnet run* utan a migraciok lefutnak es lesz egy elo adatbazisunk.
 
 
 
