@@ -8,11 +8,6 @@ namespace BankSystem.Common.Configuration
         [RegularExpression(@"^[A-Z]{3}$")]
         public string UniqueIdentifier { get; set; }
 
-        [Required]
-        public string Key { get; set; }
-
-        [Required]
-        public string CentralApiPublicKey { get; set; }
 
         [Required]
         [RegularExpression(@"^[0-9]{3}$")]
@@ -21,8 +16,6 @@ namespace BankSystem.Common.Configuration
         [Required]
         public string BankName { get; set; }
 
-        [Required]
-        public string CentralApiAddress { get; set; }
 
         [Required]
         public string Country { get; set; }

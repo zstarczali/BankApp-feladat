@@ -46,10 +46,7 @@
                     BankName = SampleBankName,
                     UniqueIdentifier = SampleUniqueIdentifier,
                     First3CardDigits = SampleFirst3CardDigits,
-                    CentralApiAddress = SampleCentralApiAddress,
-                    CentralApiPublicKey = SampleCentralApiPublicKey,
                     Country = SampleBankCountry,
-                    Key = SampleBankKey
                 };
 
                 var options = new Mock<IOptions<BankConfiguration>>();

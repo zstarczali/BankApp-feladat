@@ -33,6 +33,8 @@
 
   <ItemGroup>
     <Folder Include="Areas\CashTransfer\Pages\" />
+    <Folder Include="Infrastructure\Filters\" />
+    <Folder Include="Infrastructure\Helpers\" />
     <Folder Include="Views\Payments\" />
   </ItemGroup>
 
