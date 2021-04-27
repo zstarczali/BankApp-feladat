@@ -8,6 +8,17 @@
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Areas\CashTransfer\Pages\**" />
+    <Compile Remove="Views\Payments\**" />
+    <Content Remove="Areas\CashTransfer\Pages\**" />
+    <Content Remove="Views\Payments\**" />
+    <EmbeddedResource Remove="Areas\CashTransfer\Pages\**" />
+    <EmbeddedResource Remove="Views\Payments\**" />
+    <None Remove="Areas\CashTransfer\Pages\**" />
+    <None Remove="Views\Payments\**" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
@@ -28,14 +39,6 @@
     <ProjectReference Include="..\..\Data\BankSystem\BankSystem.Models\BankSystem.Models.csproj" />
     <ProjectReference Include="..\..\Services\BankSystem\BankSystem.Services.Models\BankSystem.Services.Models.csproj" />
     <ProjectReference Include="..\..\Services\BankSystem\BankSystem.Services\BankSystem.Services.csproj" />
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <Folder Include="Areas\CashTransfer\Pages\" />
-    <Folder Include="Infrastructure\Filters\" />
-    <Folder Include="Infrastructure\Helpers\" />
-    <Folder Include="Views\Payments\" />
   </ItemGroup>
 
 
