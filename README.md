@@ -16,6 +16,9 @@ Ha **nem** telepited a SqlLocalDb akkor termeszetesen **nem** kell megkrealni a 
 
 >SqlLocalDb start "HvgDb"
 
+MSSQL eseten igy alakul a connection:
+>      "ConnectionStrings": { "DefaultConnection": "Server=.;Database=HvgBank;Trusted_Connection=True;MultipleActiveResultSets=true" }
+
 *dotnet run* utan a migraciok lefutnak es lesz egy elo adatbazisunk.
 
 
