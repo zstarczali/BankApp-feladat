@@ -11,7 +11,7 @@ Van egy Connection string-unk, ami igy alakul:
 
 
 Ertelemszeruen ha van a gepeden, MSSQL, vagy MSSQLLocalDB az is tokeletes a celra. 
-Ha **nem** telepited a SqlLocalDb akkor termeszetesen nem kell megkrealni a HvgDb-t.
+Ha **nem** telepited a SqlLocalDb akkor termeszetesen **nem** kell megkrealni a HvgDb-t.
 >SqlLocalDb create "HvgDb"
 
 >SqlLocalDb start "HvgDb"
