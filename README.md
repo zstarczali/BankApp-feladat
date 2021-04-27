@@ -26,6 +26,7 @@ Start utan a migraciok lefutnak es lesz egy elo adatbazisunk.
 
 >dotnet run
 
+Maga a BankSystem.Web egy konzol app, *dotnet run* utan a https://localhost:5001/ vagy a http://localhost:5000/ cimen tudjuk elerni.
 Termeszetesen Visual Studioban is tudod futtatni ha kivalasztod a BanksSytem.Web-et majd a zold play gombnal is a BankSystem.Web-et kell kivalasztani.
 
 ## Teszt Account
