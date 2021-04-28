@@ -1,5 +1,5 @@
 
-# Hvg-Bank feladat 
+# BankApp feladat 
 
 Egy bank mukodeset szimulaltam, szamlak nyitasa, szamlak kozotti tranzakcio, kezpenz ki/be fizetes, 2 lepeses azonositas, stb. Ha uj regisztracio torenik akkor lenne megerosito email, de most ez a lehetoseg ki van kapcsolva. A 2f autentikacioval mobil app-al tudunk bejelentkezni. Google vagy Microsoft App-ot erdemes hasznalni, mindketto van Androidra es IOS-re. Tovabba uj regisztracional letre jon ket szamla, normal es megtakaritasi. Az egyszeruseg kedveert HUF penznemet hasznaltam.
 
