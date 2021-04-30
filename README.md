@@ -1,7 +1,7 @@
 
 # BankApp feladat 
 
-Egy bank mukodeset szimulaltam, szamlak nyitasa, szamlak kozotti tranzakcio, kezpenz ki/be fizetes, 2 lepeses azonositas, stb. Ha uj regisztracio torenik akkor lenne megerosito email, de most ez a lehetoseg ki van kapcsolva. A 2f autentikacioval mobil app-al tudunk bejelentkezni. Google vagy Microsoft App-ot erdemes hasznalni, mindketto van Androidra es IOS-re. Tovabba uj regisztracional letre jon ket szamla, normal es megtakaritasi. Az egyszeruseg kedveert HUF penznemet hasznaltam.
+Egy bank mukodeset szimulaltam, szamlak nyitasa, szamlak kozotti tranzakcio, kezpenz ki/be fizetes, 2 lepeses azonositas, stb. Ha uj regisztracio torenik akkor lenne megerosito email, de most ez a lehetoseg ki van kapcsolva. A 2f autentikacioval mobil app-al tudunk bejelentkezni. Google vagy Microsoft App-ot erdemes hasznalni, mindketto van Androidra es IOS-re. Tovabba uj regisztracional letre jon ket szamla, normal es megtakaritasi. Az egyszeruseg kedveert HUF penznemet hasznaltam. A regsztraciohoz, bejelentkezeshez es a ketlepcsos azonositashoz Microsoft Identity Api-t hasznaltam.
 
 ## Telepites
 **SqlLocalDb**-t hasznaltam a fejleszteshez innen letoltheto: [download from here](https://download.microsoft.com/download/7/c/1/7c14e92e-bdcb-4f89-b7cf-93543e7112d1/SqlLocalDB.msi)
